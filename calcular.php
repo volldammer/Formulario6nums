@@ -36,12 +36,13 @@ $numeros[]=$_POST["n6"];
         //buscamos los numeros impares
         
             echo "Los numeros impares introducidos son:<br>";
-          foreach ($numeros as $nums){
+          
+            foreach ($numeros as $nums){
             if($nums%2!=0){
-                
+               
                 echo $nums."<br>";
             }
-             
+            
               
               
             } 
