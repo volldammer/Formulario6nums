@@ -32,5 +32,20 @@ $numeros[]=$_POST["n6"];
             
         }
         echo "La suma es: $sumar<br>";
+        
+        //buscamos los numeros impares
+        
+            echo "Los numeros impares introducidos son:<br>";
+          foreach ($numeros as $nums){
+            if($nums%2!=0){
+                
+                echo $nums."<br>";
+            }
+             
+              
+              
+            } 
+          
     
+   
 
