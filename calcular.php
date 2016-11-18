@@ -23,4 +23,14 @@ $numeros[]=$_POST["n6"];
     $media_nums = media($numeros);
    echo"La media de los numeros es: $media_nums<br>";
     
-   
+    //ahora la suma
+    
+    
+     $sumar = 0;
+        foreach ($numeros as $resu) {
+            $sumar += $resu;
+            
+        }
+        echo "La suma es: $sumar<br>";
+    
+
